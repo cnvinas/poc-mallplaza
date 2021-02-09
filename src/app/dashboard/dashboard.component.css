@@ -1,0 +1,47 @@
+.wrapper-menu {
+    background-color: #eeeded;
+}
+
+.fill-height {
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.dark-grey-font {
+    color: #55565a;
+}
+
+.grey-font {
+    color: grey;
+}
+
+.font-13 {
+    font-size: 13px;
+}
+
+.logo-aside {
+    width: 65%;
+    padding: 1rem;
+}
+
+.row-bottom-line {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.125);
+}
+
+.custom-col {
+    max-width: 100% !important;
+    padding: 0;
+    margin: 0;
+}
+
+.business-icon {
+    background-image: url("/assets/icons/business-24px.svg");
+}
+
+.menu-icon {
+    height: 20px;
+    vertical-align: bottom;
+    margin: 0 10px;
+    float: left;
+}
