@@ -1,13 +1,25 @@
-import { Inject } from "@angular/core";
-import { of } from "rxjs";
+import { Injectable } from "@angular/core";
+import { Observable, of } from "rxjs";
 import { MockTableData } from "./mocks/mock-table-data";
-
-@Inject({
-    providedIn: 'root' 
+import { HttpClient } from "@angular/common/http";
+@Injectable({
+    providedIn: 'root'
 })
 export class MockService extends MockTableData{
-  
-    getData(){
-        return of({cols:this.tableCols, rows: this.tableRows});
+    baseUrl: string = "https://logistic.mallplaza.cl/";
+
+    getMachines() {
+        //let mockIndex = 0;
+        //let url = this.baseUrl + "api/v1/machines/mall/" + mockIndex;
+        //return this.http.get(url);
+        return of({cols:this.machineCols, rows: this.machineRows});
+    }
+
+    getMalls() {
+        return of({cols:this.mallCols, rows: this.mallRows});
+    }
+
+    getCountries() {
+        return of({cols:this.countriesCols, rows: this.countriesRows});
     }
 }

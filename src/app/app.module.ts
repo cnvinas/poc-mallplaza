@@ -9,6 +9,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { MainTableComponent } from './main-table/main-table.component';
 import { MockService } from './services/mock-service.service';
 import { PageNumber } from './pipes/pageNumber.pipe';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { PageNumber } from './pipes/pageNumber.pipe';
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
   providers: [MockService],
   bootstrap: [AppComponent]
