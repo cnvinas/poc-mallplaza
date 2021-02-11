@@ -1,4 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
-
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+html,
+body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-family: brixsans, Arial, Helvetica, sans-serif;
+}
+.dark-grey-font {
+    color: #55565a;
+}
+.grey-font {
+    color: grey;
+}
+.font-13 {
+    font-size: 13px;
+}
+.font-20 {
+    font-size: 20px;
+}
+.bg-transparent {
+    background: #f8f9fa00;
+}
+.bg-white {
+    background-color: white;
+}
+.fill-height {
+    height: 100vh;
+    overflow-y: auto;
+}
+.menu-icon {
+    height: 20px;
+    vertical-align: bottom;
+}
+.h-20{
+    height: 20%!important;
+}
