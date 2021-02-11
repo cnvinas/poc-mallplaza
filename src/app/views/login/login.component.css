@@ -2,41 +2,48 @@
     height: 100vh;
     overflow-y: auto;
 }
-.form-content{
+
+.form-content {
     background-color: #EEEDED;
     border-radius: 50px;
 }
-.form-title-text{
+
+.form-title-text {
     color: #E21450;
     font-size: 2.5em;
     font-weight: bold;
     line-height: 1.2;
     padding-top: 1rem;
 }
-.form-subtitle{
+
+.form-subtitle {
     font-size: 1.75em;
     font-weight: bold;
     line-height: 1.2;
     color: #55565A;
 }
-.form-text{
+
+.form-text {
     font-size: 0.75em;
     font-weight: bold;
     padding-bottom: 1.5em;
 }
-.logo-background{
-    background-image: url('/assets/Logo.png');
+
+.logo-background {
+    background-image: url('../../../app/assets/Logo.png');
     background-repeat: no-repeat;
     background-size: 100% 80%;
     background-position-y: 5rem;
 }
-.form-control{
+
+.form-control {
     background: transparent;
     border: none;
     border-bottom: 1px solid;
     font-size: 13px;
 }
-.btn-color{
+
+.btn-color {
     color: #fff;
     background-color: #E21450;
     border-color: #E21450;

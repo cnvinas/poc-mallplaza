@@ -10,10 +10,12 @@ import { MainTableComponent } from '../shared/components/main-table/main-table.c
 import { MockService } from '../shared/services/mock-service.service';
 import { PageNumber } from '../shared/pipes/pageNumber.pipe';
 import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from '../views/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    LoginComponent,
     DashboardComponent,
     LeftMenuComponent,
     NavbarComponent,

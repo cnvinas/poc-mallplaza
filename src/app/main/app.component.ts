@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { eventNames } from 'process';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  showDashboard = false;
+  showLogin = true;
   title = 'poc-mallplaza';
+
+  displayDashboard(event){
+    this.showDashboard = event;
+    this.showLogin = !event;
+  }
 }

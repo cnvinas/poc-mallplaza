@@ -1,3 +1,4 @@
 <div class="content" role="main">
-    <app-dashboard></app-dashboard>
+    <app-login *ngIf="showLogin" (showDashboard)="displayDashboard($event)"></app-login>
+    <app-dashboard *ngIf="showDashboard" (showLogin)="displayDashboard($event)"></app-dashboard>
 </div>

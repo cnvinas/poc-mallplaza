@@ -1,4 +1,4 @@
-import { ChangeDetectorRef, Component, OnInit, ViewChild } from '@angular/core';
+import { ChangeDetectorRef, Component, EventEmitter, OnInit, Output, ViewChild } from '@angular/core';
 import { MainTableComponent } from '../../shared/components/main-table/main-table.component';
 
 @Component({
@@ -8,6 +8,9 @@ import { MainTableComponent } from '../../shared/components/main-table/main-tabl
 })
 export class DashboardComponent implements OnInit {
   sendValueToDisplay = undefined;  
+  showDashboard = false;
+  @Output()
+  showLogin = new EventEmitter<boolean>();
   @ViewChild(MainTableComponent) child: MainTableComponent;
 
   constructor(private changeDetector: ChangeDetectorRef) { }
@@ -20,6 +23,10 @@ export class DashboardComponent implements OnInit {
 
   handleValueToDisplay(event){
     this.child.initTable(event);
+  }
+
+  logout(event){
+    this.showLogin.emit(event);
   }
 
 }

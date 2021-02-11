@@ -4,7 +4,7 @@
             <app-left-menu (sendValueToDisplay)="handleValueToDisplay($event)"></app-left-menu>
         </div>
         <div class="col-10 custom-col dash-content-bg">
-            <app-navbar></app-navbar>
+            <app-navbar (showDashboard)="logout($event)"></app-navbar>
             <app-main-table [displayData]="sendValueToDisplay"></app-main-table>
         </div>
     </div>
