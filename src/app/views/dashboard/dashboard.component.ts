@@ -1,5 +1,5 @@
 import { ChangeDetectorRef, Component, OnInit, ViewChild } from '@angular/core';
-import { MainTableComponent } from '../main-table/main-table.component';
+import { MainTableComponent } from '../../shared/components/main-table/main-table.component';
 
 @Component({
   selector: 'app-dashboard',

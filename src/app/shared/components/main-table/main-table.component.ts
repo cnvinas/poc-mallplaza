@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { MockService } from '../services/mock-service.service';
+import { MockService } from '../../services/mock-service.service';
 
 @Component({
   selector: 'app-main-table',

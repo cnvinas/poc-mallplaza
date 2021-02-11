@@ -11,7 +11,7 @@ export class LeftMenuComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {    
   }
 
   displayMachinesData(){

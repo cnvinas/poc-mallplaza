@@ -1,0 +1,25 @@
+.logo-aside {
+    width: 65%;
+    padding: 1rem;
+}
+
+.row-bottom-line {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.125);
+}
+
+.menu-btn:hover {
+    background: #d84d4dbb!important;
+    color: white;
+}
+
+.menu-btn:focus,
+.menu-btn:active {
+    background: #e03030ed!important;
+    color: white;
+}
+
+.btn:focus,
+.btn.focus {
+    box-shadow: none;
+}
