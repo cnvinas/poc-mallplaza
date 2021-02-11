@@ -44,3 +44,7 @@ body {
     height: 20px;
     vertical-align: bottom;
 }
+
+.h-20 {
+    height: 20%!important;
+}
