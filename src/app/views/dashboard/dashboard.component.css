@@ -1,0 +1,18 @@
+.wrapper-menu {
+    background-color: #e0deded4;
+}
+
+.dash-content-bg {
+    background-image: url('../../assets/orange-linear-gradient-pink-1920x1080-c2-ff1493-ffa500-a-210-f-14.svg');
+    background-size: 100% 20%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-color: #eeeded;
+}
+
+.custom-col {
+    max-width: 100% !important;
+    padding: 0;
+    margin: 0;
+}

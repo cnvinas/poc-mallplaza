@@ -1,0 +1,10 @@
+.send-msg-btn {
+    background: rgb(209, 75, 137);
+    color: white;
+    border-radius: 7px;
+}
+
+.table-wrapper-title {
+    color: rgb(209, 75, 137);
+    font-weight: 700;
+}

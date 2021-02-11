@@ -1,0 +1,11 @@
+<div class="container-fluid fill-height">
+    <div class="row h-100">
+        <div class="col-2 wrapper-menu">
+            <app-left-menu (sendValueToDisplay)="handleValueToDisplay($event)"></app-left-menu>
+        </div>
+        <div class="col-10 custom-col dash-content-bg">
+            <app-navbar (showDashboard)="logout($event)"></app-navbar>
+            <app-main-table [displayData]="sendValueToDisplay"></app-main-table>
+        </div>
+    </div>
+</div>
