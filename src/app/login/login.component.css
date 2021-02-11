@@ -1,0 +1,15 @@
+.fill-height {
+    height: 100vh;
+    overflow-y: auto;
+}
+.form-title-text{
+    color: #E21450;
+}
+.logo-background{
+    background-image: url('/assets/Logo.png');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
